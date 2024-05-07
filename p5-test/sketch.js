@@ -4,6 +4,7 @@ function setup() {
 
 function draw() {
   if (mouseIsPressed) {
+    console.log("PRESSED");
     fill(0);
   } else {
     fill(100);
